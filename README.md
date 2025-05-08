@@ -1,3 +1,3 @@
-# les-1-challenges
+# FPR2-Challenges
 
-Yoooooo dit is mijn les 1 github.
+Yoooooo dit is mijn readme jonge.
