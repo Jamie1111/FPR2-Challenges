@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.article1 {   
+    background-color: #ac2525;
+    padding : 20px;
+    text-align: center;
+}
+
+.articles-container {
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    gap: 10px;
+    justify-content: center;
+}
