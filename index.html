@@ -4,44 +4,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
     <title>Home</title>
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="articles.html">Articles</a></li>
-    <li><a href="about.html">About Us</a></li>
-    <li><a href="contact.html">Contact</a></li>
-</ul>
+<body class="bg-gray-100 text-gray-800 font-sans">
 
-<body>
-    <div class="articles-container">
-    <article class="article1">
-        <h2>KFC</h2>
-        <h3>The Overlord</h3>
-        <p>Een fantastisch close up van een KFC, wat om op te eten is</p>
-        <p>24/4/2025</p>
-    </article>
-    <article class="article1">
-        <h2>MC Nuggets x9</h2>
-        <h3>Biggie Daggoe</h3>
-        <p>Een fantastisch close up van 9 mc nuggets, wat om op te eten is</p>
-        <p>24/4/2025</p>
-    </article>
-    <article class ="article1">
-        <h2>Burger King</h2>
-        <h3>AG</h3>
-        <p>Een fantastisch close up van Burger King, wat om op te eten is</p>
-        <p>24/4/2025</p>
-    </article>
-    <article class="article1">
-        <h2>Blijdorp</h2>
-        <h3>Bokito</h3>
-        <p>Een fantastisch close up van een KFC, wat om op te eten is</p>
-        <p>24/4/2025</p>
-    </article>
+    <!-- Navigatie -->
+    <nav class="bg-white shadow mb-8">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="text-xl font-bold text-pink-500">AG's Gehaktballen Kraam</div>
+                <ul class="flex space-x-6 text-sm md:text-base">
+                    <li><a href="index.html" class="text-gray-700 hover:text-pink-500">Home</a></li>
+                    <li><a href="articles.html" class="text-gray-700 hover:text-pink-500">Articles</a></li>
+                    <li><a href="about.html" class="text-gray-700 hover:text-pink-500">About Us</a></li>
+                    <li><a href="contact.html" class="text-gray-700 hover:text-pink-500">Contact</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Artikelen -->
+    <div class="max-w-7xl mx-auto px-4">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <!-- Artikel 1 -->
+        <article class="bg-white p-6 rounded-lg shadow hover:shadow-md transition">
+            <h2 class="text-xl font-semibold text-pink-500">KFC</h2>
+            <h3 class="text-sm text-gray-500 mb-2">The Overlord</h3>
+            <p class="mb-2">Een fantastisch close-up van een KFC, wat om op te eten is.</p>
+            <p class="text-sm text-gray-400">24/4/2025</p>
+        </article>
+
+        <!-- Artikel 2 -->
+        <article class="bg-white p-6 rounded-lg shadow hover:shadow-md transition">
+            <h2 class="text-xl font-semibold text-pink-500">MC Nuggets x9</h2>
+            <h3 class="text-sm text-gray-500 mb-2">Biggie Daggoe</h3>
+            <p class="mb-2">Een fantastisch close-up van 9 mc nuggets, wat om op te eten is.</p>
+            <p class="text-sm text-gray-400">24/4/2025</p>
+        </article>
+
+        <!-- Artikel 3 -->
+        <article class="bg-white p-6 rounded-lg shadow hover:shadow-md transition">
+            <h2 class="text-xl font-semibold text-pink-500">Burger King</h2>
+            <h3 class="text-sm text-gray-500 mb-2">AG</h3>
+            <p class="mb-2">Een fantastisch close-up van Burger King, wat om op te eten is.</p>
+            <p class="text-sm text-gray-400">24/4/2025</p>
+        </article>
+
+        <!-- Artikel 4 -->
+        <article class="bg-white p-6 rounded-lg shadow hover:shadow-md transition">
+            <h2 class="text-xl font-semibold text-pink-500">Blijdorp</h2>
+            <h3 class="text-sm text-gray-500 mb-2">Bokito</h3>
+            <p class="mb-2">Een fantastisch close-up van een KFC, wat om op te eten is.</p>
+            <p class="text-sm text-gray-400">24/4/2025</p>
+        </article>
+    </div>
 </div>
+
+
 </body>
 
 </html>
